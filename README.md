@@ -29,12 +29,40 @@ q2
 q0,a,q1
 q1,b,q2
 q2,a,q0
-q2,b,q1
+q2,b,q1 
 
-## Ejecución
 
-Compila el programa utilizando un compilador de C:
+Para ejecutar el programa:
 
-```bash
-gcc main.c dfa.c -o dfa
+1. **Compila el código:**
 
+    ```bash
+    gcc main.c dfa.c -o dfa
+    ```
+
+2. **Ejecuta el programa:**
+
+    ```bash
+    ./dfa
+    ```
+
+3. **Cuando se te solicite, ingresa el nombre del archivo de configuración (`config.txt`):**
+
+    ```
+    Ingrese el nombre del archivo de configuración: config.txt
+    ```
+
+4. **Luego, se te pedirá que ingreses una cadena de entrada. Por ejemplo, ingresa la cadena `ab`:**
+
+    ```
+    Ingrese la cadena de entrada: ab
+    ```
+
+El programa procesará la cadena `ab` según las transiciones y los estados de aceptación definidos en `config.txt`. Dado el archivo de configuración proporcionado, el programa debería indicar que la cadena es aceptada si el autómata llega a un estado de aceptación después de procesar toda la cadena.
+
+**Salida esperada:**
+
+
+
+
+  
