@@ -1,3 +1,5 @@
+integrantes:Johan Garvia, Marco, Willian Cordero, Daniel Reyes
+
 # DFA Automaton in C
 
 Este proyecto implementa un Autómata Finito Determinista (DFA, por sus siglas en inglés) en C. El programa lee un archivo de configuración que define los estados, el alfabeto, el estado inicial, los estados de aceptación y las transiciones del autómata. Luego, el programa procesa una cadena de entrada y determina si es aceptada o rechazada por el DFA.
