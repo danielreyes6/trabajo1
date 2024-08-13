@@ -21,7 +21,7 @@ El archivo de configuración (`config.txt`) debe tener el siguiente formato:
 
 ### Ejemplo de `config.txt`
 
-```dsdas
+```
 q0,q1,q2
 a,b
 q0
@@ -29,8 +29,18 @@ q2
 q0,a,q1
 q1,b,q2
 q2,a,q0
-q2,b,q1 
+q2,b,q1
+```
 
+## Ejecución
+
+Compila el programa utilizando un compilador de C:
+
+```bash
+gcc main.c dfa.c -o dfa
+```
+## Ejemplo de Uso
+Supongamos que tienes el archivo config.txt como se muestra en la sección de configuración. Al ejecutar el programa y proporcionar config.txt como archivo de configuración, se te solicitará una cadena de entrada, como ab. Dependiendo de las transiciones y los estados de aceptación definidos, el programa te dirá si la cadena es aceptada o rechazada.
 
 
 
