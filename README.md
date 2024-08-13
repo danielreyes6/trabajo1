@@ -4,10 +4,10 @@ Este proyecto implementa un Autómata Finito Determinista (DFA, por sus siglas e
 
 ## Archivos del Proyecto
 
-- **main.c**: Contiene la función principal que lee el archivo de configuración, solicita la cadena de entrada y utiliza el DFA para procesarla.
-- **dfa.h**: Define las estructuras y funciones necesarias para representar y operar el DFA.
-- **dfa.c**: Implementa las funciones declaradas en `dfa.h` para configurar y operar el DFA.
-- **config.txt**: Archivo de configuración que define la estructura del DFA.
+- **main.c**:Contiene la función principal que lee el archivo de configuración, solicita la cadena de entrada y utiliza el DFA para procesarla.
+- **dfa.h**:Define las estructuras de datos usadas en el programa.
+- **dfa.c**:Implementa las funciones para configurar y operar el DFA.
+- **config.txt**:Archivo de configuración que define los paràmetros del DFA.
 
 ## Configuración
 
