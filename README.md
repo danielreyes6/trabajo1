@@ -30,3 +30,11 @@ q0,a,q1
 q1,b,q2
 q2,a,q0
 q2,b,q1
+
+## Ejecución
+
+Compila el programa utilizando un compilador de C:
+
+```bash
+gcc main.c dfa.c -o dfa
+
